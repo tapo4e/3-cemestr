@@ -1,0 +1,3 @@
+"D:\ebat ya proger\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\oop_lab_3.dir/objects.a
+D:\mingw\bin\ar.exe cr CMakeFiles\oop_lab_3.dir/objects.a @CMakeFiles\oop_lab_3.dir\objects1.rsp
+D:\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\oop_lab_3.dir/objects.a -Wl,--no-whole-archive -o oop_lab_3.exe -Wl,--out-implib,liboop_lab_3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\oop_lab_3.dir\linklibs.rsp

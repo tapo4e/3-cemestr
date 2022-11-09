@@ -1,7 +1,7 @@
 #include "header.h"
 void get_info(Task &task, Task *mass,int n) {
     for (int i = 0; i < n; i++) {
-        std::cout << "id=" << Task::get_id()-n<< "\nname is " << mass[i].name << "\nprocent of work="<< mass[i].procent_of_work << "\n";
+        std::cout << "id=" <<Task::get_id()+i<< "\nname is " << mass[i].name << "\nprocent of work="<< mass[i].procent_of_work <<"%"<< "\n";
     }
 }
 int main() {
