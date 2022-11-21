@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/BYBLIK_228/CLionProjects/oop_lab_8/head.h
+
+C:/Users/BYBLIK_228/CLionProjects/oop_lab_8/main.cpp
+iostream
+-
+head.h
+C:/Users/BYBLIK_228/CLionProjects/oop_lab_8/head.h
+
